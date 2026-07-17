@@ -4,6 +4,7 @@ import mark from "../assets/brand/mark.png";
 import { DownloadButton } from "./DownloadButton";
 
 const links = [
+  { href: "#demo", label: "Watch Demo" },
   { href: "#features", label: "Features" },
   { href: "#pos-styles", label: "POS Styles" },
   { href: "#pricing", label: "Pricing" },

@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { TrustStrip } from "./components/TrustStrip";
+import { VideoDemo } from "./components/VideoDemo";
 import { Features } from "./components/Features";
 import { PosStyles } from "./components/PosStyles";
 import { Pricing } from "./components/Pricing";
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <TrustStrip />
+        <VideoDemo />
         <Features />
         <PosStyles />
         <Pricing />
