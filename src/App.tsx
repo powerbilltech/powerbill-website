@@ -8,6 +8,7 @@ import { Faq } from "./components/Faq";
 import { Contact } from "./components/Contact";
 import { CtaBand } from "./components/CtaBand";
 import { Footer } from "./components/Footer";
+import { ChatWidget } from "./components/ChatWidget";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <CtaBand />
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
