@@ -5,6 +5,7 @@ import { DownloadButton } from "./DownloadButton";
 
 const links = [
   { href: "#demo", label: "Watch Demo" },
+  { href: "#full-demo", label: "Full Walkthrough" },
   { href: "#features", label: "Features" },
   { href: "#pos-styles", label: "POS Styles" },
   { href: "#pricing", label: "Pricing" },
