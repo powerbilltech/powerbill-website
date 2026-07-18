@@ -23,9 +23,9 @@ const columns = [
     links: [
       {
         label: "License Agreement",
-        href: "https://github.com/sandeep008/powerbill-releases/releases/latest",
+        href: "https://github.com/powerbilltech/powerbill-releases/releases/latest",
       },
-      { label: "Releases", href: "https://github.com/sandeep008/powerbill-releases/releases" },
+      { label: "Releases", href: "https://github.com/powerbilltech/powerbill-releases/releases" },
     ],
   },
 ];

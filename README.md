@@ -1,6 +1,6 @@
 # PowerBill Website
 
-The official marketing website for [PowerBill](https://github.com/sandeep008/powerbill-releases) —
+The official marketing website for [PowerBill](https://github.com/powerbilltech/powerbill-releases) —
 offline-first retail billing & POS software. Built with React, TypeScript, Vite, and
 Tailwind CSS v4; deployed to GitHub Pages.
 
@@ -9,7 +9,7 @@ Tailwind CSS v4; deployed to GitHub Pages.
 - Landing page: hero, features, POS-style showcase, pricing, FAQ, and a support/demo-request
   section (WhatsApp + email, no backend needed).
 - **Live download button**: fetches the latest release directly from the public
-  [`powerbill-releases`](https://github.com/sandeep008/powerbill-releases) repo's GitHub API
+  [`powerbill-releases`](https://github.com/powerbilltech/powerbill-releases) repo's GitHub API
   at page load (`src/hooks/useLatestRelease.ts`) — the same source PowerBill's own in-app
   "Check for Updates" reads from — so the site never advertises a stale version.
 - No backend, no CMS: everything is static, content lives directly in the component files
@@ -41,5 +41,5 @@ every push to `main` (or via manual dispatch from the Actions tab). Pages must b
 
 Company details, pricing structure, and feature copy live directly in the relevant component
 under `src/components/`. See `docs/PowerBill-Business-Features.md` in the main
-[`smart_ai_PowerBill`](https://github.com/sandeep008/smart_ai_PowerBill) repo for the
+[`powerbill-app`](https://github.com/powerbilltech/powerbill-app) repo for the
 original source content this site was built from.

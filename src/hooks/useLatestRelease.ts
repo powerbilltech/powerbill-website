@@ -7,9 +7,9 @@ export interface LatestRelease {
   publishedAt: string;
 }
 
-const RELEASES_API = "https://api.github.com/repos/sandeep008/powerbill-releases/releases/latest";
+const RELEASES_API = "https://api.github.com/repos/powerbilltech/powerbill-releases/releases/latest";
 const INSTALLER_ASSET_NAME = "PowerBillSetup.exe";
-const FALLBACK_RELEASES_URL = "https://github.com/sandeep008/powerbill-releases/releases/latest";
+const FALLBACK_RELEASES_URL = "https://github.com/powerbilltech/powerbill-releases/releases/latest";
 
 /**
  * Reads the latest PowerBill release the exact same way the app's own in-app
