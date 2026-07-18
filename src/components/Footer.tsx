@@ -63,7 +63,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-black/5 pt-6 text-xs text-ink/40 sm:flex-row sm:items-center sm:justify-between">
           <span>&copy; {new Date().getFullYear()} PowerBill Technologies Pvt. Ltd. All rights reserved.</span>
-          <span>Keshav Nagar, Pune, Maharashtra, India</span>
+          <span>Pune, Maharashtra, India</span>
         </div>
       </div>
     </footer>

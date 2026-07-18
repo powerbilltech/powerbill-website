@@ -57,7 +57,7 @@ export function Contact() {
             <div className="flex items-start gap-3">
               <MapPin className="mt-0.5 size-5 shrink-0 text-brand-600" />
               <dd className="text-sm text-ink/70">
-                D, Excella Tremont, Keshav Nagar, Pune - 413610, Maharashtra, India
+                Pune, Maharashtra, India
               </dd>
             </div>
           </dl>
