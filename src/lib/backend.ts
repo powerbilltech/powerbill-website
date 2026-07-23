@@ -2,13 +2,9 @@
  * Talks to the free Google Apps Script Web App that stands in for a
  * database (this site is static -- GitHub Pages, no server of its own).
  * See google-apps-script/Code.gs and SETUP.md.
- *
- * TODO: replace with the real deployed Web App URL (ends in /exec) once
- * the one-time Google Sheet setup in SETUP.md is done. Left blank until
- * then -- isBackendConfigured() lets callers show a graceful "not set up
- * yet" state instead of firing requests at an empty URL.
  */
-export const APPS_SCRIPT_URL = "";
+export const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycby5LT-qre6oqtyawozQDONA8t1PAWuGFfR5xf62Gh7kQD930j6aTKJdOMcL-si2Xf3B-A/exec";
 
 export function isBackendConfigured() {
   return APPS_SCRIPT_URL.length > 0;
